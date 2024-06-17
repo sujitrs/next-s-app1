@@ -30,6 +30,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
      const pathname = usePathname();
+     
      const LinkIcon = link.icon;
         return (
           <Link
